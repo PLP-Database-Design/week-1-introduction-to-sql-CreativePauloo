@@ -11,10 +11,10 @@ A Database Management System (DBMS) consists of the following components:
 Relational Database
 A relational database organizes data into structured tables (relations) with rows and columns. It uses primary keys and foreign keys to establish relationships between tables.
 Examples of Relational Databases:
-MySQL
-PostgreSQL
-Oracle Database
-Microsoft SQL Server
+1. MySQL
+2. PostgreSQL
+3. Oracle Database
+4. Microsoft SQL Server
 
 Classifications of SQL
 SQL is classified into three main categories:
@@ -23,28 +23,28 @@ SQL is classified into three main categories:
 3. Data Control Language (DCL): Commands used to control access and permissions in the database. Examples: GRANT, REVOKE.
 
 Difference Between a Primary Key and a Foreign Key	
-Primary Key Uniquely identifies each record in a table. Cannot contain null values.
-Foreign Key References the primary key in another table and establishes a relationship.
+1. Primary Key Uniquely identifies each record in a table. Cannot contain null values.
+2. Foreign Key References the primary key in another table and establishes a relationship.
 
 Entity-Relationship Diagram (ERD)
 An Entity-Relationship Diagram is a visual representation of the data model that describes the entities (objects) in the database, their attributes, and the relationships between them. It is widely used in database design to map the structure and interaction of entities.
 
 Advantages of Relational Databases
-Data Integrity: Maintains accuracy and consistency of data through constraints (e.g., primary keys).
-Flexibility: Easily adapts to changing requirements by modifying the schema.
-Data Security: Offers robust access control mechanisms.
-Scalability: Supports large-scale data with efficient query processing.
+1. Data Integrity: Maintains accuracy and consistency of data through constraints (e.g., primary keys).
+2. Flexibility: Easily adapts to changing requirements by modifying the schema.
+3. Data Security: Offers robust access control mechanisms.
+4. Scalability: Supports large-scale data with efficient query processing.
 
 Types of Data Types Used in Tables
-Integer: Stores whole numbers.
-Varchar/Char: Stores strings or text.
-Date/Time: Stores date and time values.
-Float/Decimal: Stores real numbers with fractional parts.
+1. Integer: Stores whole numbers.
+2. Varchar/Char: Stores strings or text.
+3. Date/Time: Stores date and time values.
+4. Float/Decimal: Stores real numbers with fractional parts.
 
 Purpose of a Database Management System (DBMS)
 The purpose of a DBMS is to provide a centralized, efficient, and secure platform for:
-Storing and organizing data.
-Facilitating easy data retrieval and manipulation using queries.
-Ensuring data consistency, integrity, and security.
-Supporting concurrent access by multiple users.
-Automating data backup and recovery.
+1. Storing and organizing data.
+2. Facilitating easy data retrieval and manipulation using queries.
+3. Ensuring data consistency, integrity, and security.
+4. Supporting concurrent access by multiple users.
+5. Automating data backup and recovery.
